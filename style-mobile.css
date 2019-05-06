@@ -1,0 +1,43 @@
+@media only screen and (max-width: 940px) {
+    .topline-wrap {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .header-wrap {
+        grid-template-columns: 1fr;
+    }
+    /* .nav-bar {
+        display: none;
+    } */
+    .icon {
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .slider-grid {
+        grid-template-columns: 1fr;
+    }
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+    .service-item-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .feature-info_grid {
+        width: 80%;
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+    .gallery-search_grid {
+        grid-template-columns: none;
+    }
+    .gallery-search {
+        width: 80%;
+        margin: auto;
+    }
+    .feedback-item_grid {
+        grid-template-columns: 1fr;
+    }
+    footer {
+        display: none;
+    }
+}
